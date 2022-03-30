@@ -1,0 +1,28 @@
+/* Untuk Smartphone */
+@media all and (max-width: 670px){
+    header{
+        height: 75px;
+    }
+
+    header h1{
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .logo{
+        width: 40%;
+    }
+    
+    header h1, .header-right{
+        margin: 0;
+        text-align: left;
+    }
+
+    .calculator{
+        padding-top: 40px;
+    }
+
+    *{
+        overflow: auto;
+    }
+}
