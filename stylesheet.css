@@ -13,7 +13,6 @@ header{
     background-color: rgba(34, 49, 52, 0.9);
     align-items: center;
     /* justify-content: center; */
-    flex-wrap: nowrap;
 }
 
 header h1, .header-right{
@@ -38,10 +37,6 @@ header h1, .header-right{
 .fa {
     padding-left: 10px;
     color: #fff;
-} */
-/* 
-.none {
-    display: none;
 } */
 
 .content{
@@ -95,6 +90,10 @@ button{
     width: 50%;
 }
 
+.all-clear{
+    background-color: red;
+}
+
 .operator{
     color: #fff;
     background-color: orange;
@@ -108,6 +107,10 @@ button:hover{
     background-color: darkgray;
 }
 
+.all-clear:hover{
+    background-color: darkred;
+}
+
 .operator:hover{
     background-color: darkorange;
 }
@@ -115,3 +118,4 @@ button:hover{
 .equal-sign:hover{
     background-color: darkgreen;
 }
+
